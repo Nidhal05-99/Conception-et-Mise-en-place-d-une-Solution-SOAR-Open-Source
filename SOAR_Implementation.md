@@ -19,6 +19,10 @@ Les identifiants par défaut de la machine virtuelle OVA sont les suivants :
 
 Après avoir terminé l’installation et les configurations nécessaires, nous avons procédé à l’accès à l’interface web de **Wazuh** afin de vérifier le bon fonctionnement du SIEM et de commencer la supervision des événements de sécurité.
 
+Les identifiants utilisés pour l’accès à l’interface sont les suivants :  
+- **Username :** admin  
+- **Password :** admin  
+
 ---
 
 ![Figure 2](/images/Dashboard_wazuh.png)  
