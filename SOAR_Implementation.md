@@ -16,3 +16,10 @@ Les identifiants par défaut de la machine virtuelle OVA sont les suivants :
   
 ![Figure 1](/images/Installation_Wazuh.png)  
 *Figure 1 : Installation du serveur Wazuh*
+
+Après avoir terminé l’installation et les configurations nécessaires, nous avons procédé à l’accès à l’interface web de **Wazuh** afin de vérifier le bon fonctionnement du SIEM et de commencer la supervision des événements de sécurité.
+
+---
+
+![Figure 2](../images/Dashboard_wazuh.png)  
+*Figure 2 : Interface web de Wazuh*
