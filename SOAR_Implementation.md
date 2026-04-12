@@ -23,7 +23,5 @@ Les identifiants utilisés pour l’accès à l’interface sont les suivants :
 - **Username :** admin  
 - **Password :** admin  
 
----
-
 ![Figure 2](/images/Dashboard_wazuh.png)  
 *Figure 2 : Interface web de Wazuh*
