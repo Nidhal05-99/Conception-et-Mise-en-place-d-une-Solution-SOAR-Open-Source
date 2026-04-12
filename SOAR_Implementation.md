@@ -34,7 +34,7 @@ Les accès à l’interface ont été configurés lors du déploiement de la sol
 
 ## ⚙️ 2. Installation de l’agent Wazuh
 
-Afin d’étendre les capacités de supervision du SIEM, nous avons procédé à l’installation de l’agent **Wazuh** sur une machine **Ubuntu Server**.
+Afin d’étendre les capacités de supervision du SIEM, nous avons procédé à l’installation de l’agent **Wazuh** sur la machine **Ubuntu Server**.
 
 Cette étape permet de générer les clés d’authentification pour établir une communication sécurisée entre l’agent et le serveur. La figure ci-dessous montre l’ajout de l’agent Ubuntu depuis l’interface d’administration.
 
