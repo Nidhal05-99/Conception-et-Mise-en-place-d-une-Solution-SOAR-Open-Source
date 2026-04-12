@@ -41,5 +41,8 @@ Cette étape permet de générer les clés d’authentification pour établir un
 ![Figure 3](/images/Ajout_agent_ubuntu.png)  
 *Figure 3 : Ajout de l’agent Ubuntu sur le serveur Wazuh*
 
+Après avoir finalisé la phase de déploiement, nous avons vérifié l’état et l’activation de l’agent Wazuh afin de confirmer la bonne communication avec le serveur.
 
+![Figure 4](/images/Etat_agent_ubuntu.png)  
+*Figure 4 : État de l’agent Wazuh sur Ubuntu Server*
 
