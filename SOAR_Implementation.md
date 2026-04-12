@@ -1,6 +1,6 @@
 # 🔹 Mise en place du SIEM
 
-Dans le cadre de ce projet SOAR, la première étape a consisté à déployer la brique **SIEM (Security Information and Event Management)**, élément fondamental de l’architecture SOC.
+Dans le cadre de ce projet SOAR, la première étape a consisté à déployer la brique **SIEM (Security Information and Event Management)**.
 
 Le SIEM permet la **centralisation, l’analyse et la corrélation des événements de sécurité**, afin de détecter en temps réel les activités suspectes et les comportements anormaux au sein du système d’information.
 
