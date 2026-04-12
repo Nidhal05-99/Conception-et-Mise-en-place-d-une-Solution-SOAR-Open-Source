@@ -21,5 +21,5 @@ Après avoir terminé l’installation et les configurations nécessaires, nous 
 
 ---
 
-![Figure 2](../images/Dashboard_wazuh.png)  
+![Figure 2](/images/Dashboard_wazuh.png)  
 *Figure 2 : Interface web de Wazuh*
