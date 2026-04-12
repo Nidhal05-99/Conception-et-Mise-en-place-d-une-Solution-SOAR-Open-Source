@@ -10,5 +10,5 @@ Le SIEM assure la centralisation, l’analyse et la corrélation des événement
 
 Le serveur Wazuh a été déployé à partir d’une image **OVA (Open Virtual Appliance)** sur **VMware Workstation** 🖥️. Cette approche a permis de disposer d’un environnement préconfiguré, facilitant un déploiement rapide, stable et optimisé de la plateforme SIEM.
 
-![Figure 1](../images/Installation_Wazuh.png)  
+![Figure 1](/images/Installation_Wazuh.png)  
 *Figure 1 : Installation du serveur Wazuh*
