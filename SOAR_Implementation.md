@@ -74,3 +74,10 @@ La figure ci-dessous présente les journaux collectés depuis le serveur Ubuntu.
 
 ![Figure 8](/images/Logs_ubuntu.png)  
 *Figure 8 : Journaux de sécurité collectés depuis le serveur Ubuntu via Wazuh*
+
+Les activités observées sur la machine Ubuntu sont également analysées selon MITRE ATT&CK.
+La figure suivante montre cette analyse
+
+![Figure 10](/images/MITRE_ATT&CK.png)  
+
+*Figure 10 : Techniques MITRE ATT&CK pour Ubuntu Server*
