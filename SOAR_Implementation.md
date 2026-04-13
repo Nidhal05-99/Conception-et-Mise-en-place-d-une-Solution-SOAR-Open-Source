@@ -87,3 +87,6 @@ La figure suivante montre cette analyse
 ![Figure 10](/images/MITRE_ATT&CK.png)  
 
 *Figure 10 : Techniques MITRE ATT&CK pour Ubuntu Server*
+
+## ⚙️ 3. Installation et configuration de Suricata (IDS/IPS)
+
