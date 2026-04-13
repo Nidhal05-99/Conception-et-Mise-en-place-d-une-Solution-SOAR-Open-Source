@@ -65,5 +65,5 @@ Dans cette figure, nous présentons le **dashboard Wazuh** associé au serveur U
 
 Cette vue centralisée offre une meilleure visibilité sur l’activité du système et facilite l’analyse des événements de sécurité du serveur Ubuntu.
 
-![Figure 7](/images/wazuh_dashboard/ubuntu_dashboard.png)  
+![Figure 7](/images/Dashboard_wazuh.png)  
 *Figure 7 : Tableau de bord de sécurité du serveur Ubuntu sur Wazuh*
