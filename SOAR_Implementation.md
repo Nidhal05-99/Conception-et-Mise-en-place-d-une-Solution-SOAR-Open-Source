@@ -67,3 +67,10 @@ Cette vue centralisée offre une meilleure visibilité sur l’activité du syst
 
 ![Figure 7](/images/Dashboard_wazuh.png)  
 *Figure 7 : Tableau de bord de sécurité du serveur Ubuntu sur Wazuh*
+
+Le serveur Wazuh intercepte les logs et alertes générés par l’agent Ubuntu. Cette centralisation permet d’assurer une visibilité complète sur les événements de sécurité du système.
+
+La figure ci-dessous présente les journaux collectés depuis le serveur Ubuntu.
+
+![Figure 8](/images/Logs_ubuntu.png)  
+*Figure 8 : Journaux de sécurité collectés depuis le serveur Ubuntu via Wazuh*
