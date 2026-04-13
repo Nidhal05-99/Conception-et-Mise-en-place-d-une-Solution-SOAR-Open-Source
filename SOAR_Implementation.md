@@ -52,3 +52,11 @@ Après avoir finalisé la phase de déploiement, nous avons vérifié l’état 
 ![Figure 5](/images/Etat_agent_ubuntu.png)  
 *Figure 5 : État de l’agent Wazuh sur Ubuntu Server*
 
+---
+
+## 🔎 Vérification de l’ajout de l’agent Wazuh
+
+Après l’installation de l’agent Wazuh sur Ubuntu 24.04, nous avons procédé à la vérification de son ajout et de son enregistrement sur le serveur Wazuh. Cette étape permet de confirmer que l’agent est correctement détecté et intégré dans la plateforme SIEM, assurant ainsi la remontée des événements de sécurité.
+
+![Figure 6](/images/Verification_de_agent_Wazuh.png)  
+*Figure 6 : Vérification de l’agent Wazuh*
