@@ -32,6 +32,8 @@ Les accès à l’interface ont été configurés lors du déploiement de la sol
 ![Figure 2](/images/Interface_graphique_wazuh.png)  
 *Figure 2 : Interface web du dashboard Wazuh*
 
+---
+
 ## ⚙️ 2. Installation de l’agent Wazuh
 
 Afin d’étendre les capacités de supervision du SIEM, nous avons procédé à l’installation de l’agent **Wazuh** sur la machine **Ubuntu Server**.
@@ -87,6 +89,8 @@ La figure suivante montre cette analyse
 ![Figure 10](/images/MITRE_ATT&CK.png)  
 
 *Figure 10 : Techniques MITRE ATT&CK pour Ubuntu Server*
+
+---
 
 ## ⚙️ 3. Installation et configuration de Suricata (IDS/IPS)
 
