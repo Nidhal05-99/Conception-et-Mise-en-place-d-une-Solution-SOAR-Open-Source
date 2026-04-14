@@ -86,9 +86,9 @@ La figure ci-dessous présente les journaux collectés depuis le serveur Ubuntu.
 Les activités observées sur la machine Ubuntu sont également analysées selon MITRE ATT&CK.
 La figure suivante montre cette analyse
 
-![Figure 10](/images/MITRE_ATT&CK.png)  
+![Figure 9](/images/MITRE_ATT&CK.png)  
 
-*Figure 10 : Techniques MITRE ATT&CK pour Ubuntu Server*
+*Figure 9 : Techniques MITRE ATT&CK pour Ubuntu Server*
 
 ---
 
@@ -108,3 +108,8 @@ Après l’installation, nous avons démarré le service Suricata et activé son
 systemctl start suricata
 systemctl enable suricata
 ```
+
+Après une installation réussie, nous avons vérifié l’état du service Suricata sur la machine Ubuntu afin de confirmer son bon fonctionnement et son exécution correcte. La figure suivante illustre l’état du service Suricata après son démarrage.
+
+![Figure 10](/images/Etat_suricata.png)  
+*Figure 10 : État du service Suricata sur la machine Ubuntu*
