@@ -142,12 +142,13 @@ Pour la mise en place des plateformes **TheHive, Cortex et MISP**, un fichier **
 
 Les conteneurs ont été lancés via la commande `docker compose up`, permettant un déploiement en arrière-plan.
 
-La figure suivante illustre l’interface graphique de la plateforme **TheHive**.
+La figure suivante illustre l’interface graphique de la plateforme **TheHive**, accessible via le port **9000**.
 
 ![Figure 14](/images/Interface_graphique_TheHive.png)  
 *Figure 14 : Interface graphique de la plateforme TheHive*
 
-Cette figure montre l’interface graphique de la plateforme **Cortex**.
+Cette figure montre l’interface graphique de la plateforme **Cortex**,accessible via le port **9001**.
+
 
 ![Figure 15](/images/Interface_graphique_cortex.png)  
 *Figure 15 : Interface graphique de la plateforme Cortex*
