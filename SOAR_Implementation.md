@@ -101,5 +101,10 @@ Pour installer Suricata, nous avons commencé par mettre à jour les paquets du 
 ```bash
 sudo apt-get update
 sudo apt-get install suricata
+```
+Après l’installation, nous avons démarré le service Suricata et activé son lancement automatique au démarrage du système afin d’assurer son fonctionnement continu.
 
-
+```bash
+systemctl start suricata
+systemctl enable suricata
+```
