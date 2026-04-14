@@ -198,3 +198,15 @@ La figure suivante illustre cette configuration.
 
 ![Figure 21](/images/Integration_Wazuh_Thehive.png)  
 *Figure 21 :  Intégration de Wazuh et TheHive*
+
+## 🧪 5. Test de sécurité de la solution SOAR
+
+Nous avons réalisé un test de sécurité afin de valider le bon fonctionnement de la solution **SOAR**.
+
+Une attaque de type **brute force** a été simulée à l’aide de l’outil **Hydra** depuis une machine Kali Linux vers une machine endpoint, afin de générer des événements de sécurité et vérifier leur détection par la plateforme.
+
+![Figure 22](/images/ip_kali.png)  
+*Figure 22 : IP de la machine Kali Linux*
+
+![Figure 23](/images/Attaque_Brute_Force.png)  
+*Figure 23 : Simulation d’une attaque brute force*
