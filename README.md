@@ -84,11 +84,17 @@ docker compose up -d
 * MISP
 
 🔗 Intégrations
+
 🔄 Cortex ↔ MISP
-Enrichissement des IOC
-Configuration via API Key
+
+* Enrichissement des IOC
+* Configuration via API Key
+  
 🔄 TheHive ↔ Cortex
-Lancement des analyzers depuis TheHive
+
+* Lancement des analyzers depuis TheHive
+  
 🔄 Wazuh ↔ TheHive
-Envoi automatique des alertes
-Utilisation de thehive4py
+
+* Envoi automatique des alertes
+* Utilisation de thehive4py
