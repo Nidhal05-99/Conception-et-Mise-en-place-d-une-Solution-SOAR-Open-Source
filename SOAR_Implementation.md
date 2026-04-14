@@ -222,5 +222,5 @@ Comme illustré dans la figure suivante :
 
 Dès la détection de l’alerte par Wazuh, une alerte correspondante a été automatiquement créée dans TheHive.
 
-![Figure 25](/images/Brute_force_detection_wazuh.png)  
-*Figure 25 : Alerte Wazuh pour attaque par force brute*
+![Figure 25](/images/Alerte_envoyées_à_TheHive.png)  
+*Figure 25 : Alerte envoyées à TheHive*
