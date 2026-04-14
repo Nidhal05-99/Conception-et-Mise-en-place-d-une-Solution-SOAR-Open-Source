@@ -166,3 +166,8 @@ Cette intégration repose sur la configuration de l’adresse IP de l’interfac
 
 ![Figure 17](/images/Integration_MISP-Cortex.png)  
 *Figure 17 : Intégration de Cortex avec MISP via API Key*
+
+Après l’intégration, nous avons ajouté un analyseur **MISP** dans la plateforme **Cortex**..
+
+![Figure 18](/images/Ajout_MISP_Cortex.png)  
+*Figure 18 : Ajout de l’analyseur MISP dans Cortex*
