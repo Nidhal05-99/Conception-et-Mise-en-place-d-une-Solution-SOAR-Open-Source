@@ -182,6 +182,14 @@ Cette intégration a été réalisée en utilisant l’**API Key Cortex** ainsi 
 ![Figure 19](/images/Integration_TheHive-Cortex.png)  
 *Figure 19 : Intégration de TheHive avec Cortex*
 
+Suite à l’intégration réussie entreWazuh et TheHive, la transmission fluide des alertes de sécurité a été rendue possible.
+
+La figure suivante illustre des événements générés par Wazuh, automatiquement remontés dans TheHive pour analyse.
+
+![Figure 20](/images/Alerte_TheHive.png)  
+*Figure 20 : Alertes TheHive*
+
+
 ## 🔗 Intégration de Wazuh et TheHive
 
 Dans cette phase, nous avons procédé à l’intégration de **Wazuh avec TheHive** afin d’automatiser le traitement et la gestion des alertes de sécurité.
@@ -190,14 +198,14 @@ Cette intégration a été réalisée via l’installation du module **thehive4p
 
 La figure suivante illustre l’installation de ce module et la mise en place de cette intégration.
 
-![Figure 20](/images/Installation_TheHive4py.png)  
-*Figure 20 : Installation de TheHive4py sur Wazuh*
+![Figure 21](/images/Installation_TheHive4py.png)  
+*Figure 21 : Installation de TheHive4py sur Wazuh*
 
 La configuration a été réalisée en ajoutant l’URL, le port et la clé API de TheHive dans le fichier /var/ossec/etc/ossec.conf.
 La figure suivante illustre cette configuration. 
 
-![Figure 21](/images/Integration_Wazuh_Thehive.png)  
-*Figure 21 :  Intégration de Wazuh et TheHive*
+![Figure 22](/images/Integration_Wazuh_Thehive.png)  
+*Figure 22 :  Intégration de Wazuh et TheHive*
 
 ## 🧪 5. Test de sécurité de la solution SOAR
 
@@ -205,11 +213,11 @@ Nous avons réalisé un test de sécurité afin de valider le bon fonctionnement
 
 Une attaque de type **brute force** a été simulée à l’aide de l’outil **Hydra** depuis une machine Kali Linux vers une machine endpoint, afin de générer des événements de sécurité et vérifier leur détection par la plateforme.
 
-![Figure 22](/images/ip_kali.png)  
-*Figure 22 : IP de la machine Kali Linux*
+![Figure 23](/images/ip_kali.png)  
+*Figure 23 : IP de la machine Kali Linux*
 
-![Figure 23](/images/Attaque_Brute_Force.png)  
-*Figure 23 : Simulation d’une attaque brute force*
+![Figure 24](/images/Attaque_Brute_Force.png)  
+*Figure 24 : Simulation d’une attaque brute force*
 
 Suite à la simulation de l’attaque par brute force, une alerte de sécurité a été automatiquement générée et reçue sur la plateforme **Wazuh**.
 
@@ -217,10 +225,10 @@ Cette alerte fournit des informations précises, notamment l’**adresse IP de l
 
 Comme illustré dans la figure suivante :
 
-![Figure 24](/images/Brute_force_detection_wazuh.png)  
-*Figure 24 : Alerte Wazuh pour attaque par force brute*
+![Figure 25](/images/Brute_force_detection_wazuh.png)  
+*Figure 25 : Alerte Wazuh pour attaque par force brute*
 
 Dès la détection de l’alerte par Wazuh, une alerte correspondante a été automatiquement créée dans TheHive.
 
-![Figure 25](/images/Alerte_envoyées_à_TheHive.png)  
-*Figure 25 : Alerte envoyées à TheHive*
+![Figure 26](/images/Alerte_envoyées_à_TheHive.png)  
+*Figure 26 : Alerte de sécurité envoyée à TheHive*
