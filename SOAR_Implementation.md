@@ -138,6 +138,6 @@ Comme illustré dans la figure ci-dessus, les alertes générées par Suricata s
 
 ## ⚙️ 4. Installation et configuration de TheHive, Cortex et MISP
 
-Pour la mise en place des plateformes **MISP, TheHive et Cortex**, un fichier **Docker Compose** a été utilisé afin de déployer une architecture multi-services.
+Pour la mise en place des plateformes **TheHive, Cortex et MISP**, un fichier **Docker Compose** a été utilisé afin de déployer une architecture multi-services.
 
 Les conteneurs ont été lancés via la commande docker compose up, permettant un déploiement en arrière-plan.
