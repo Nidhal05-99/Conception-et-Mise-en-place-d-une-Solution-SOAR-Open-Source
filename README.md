@@ -85,16 +85,64 @@ docker compose up -d
 
 🔗 Intégrations
 
-🔄 Cortex ↔ MISP
+🔄 **Cortex ↔ MISP**
 
 * Enrichissement des IOC
 * Configuration via API Key
   
-🔄 TheHive ↔ Cortex
+🔄 **TheHive ↔ Cortex**
 
 * Lancement des analyzers depuis TheHive
   
-🔄 Wazuh ↔ TheHive
+🔄 **Wazuh ↔ TheHive**
 
 * Envoi automatique des alertes
 * Utilisation de thehive4py
+
+## 🧪 Test de sécurité
+
+Une simulation d’attaque de type **brute force** a été réalisée à l’aide des outils suivants :
+
+- 🐉 **Kali Linux**
+- ⚔️ **Hydra**
+
+---
+
+## ✅ Résultats
+
+- Détection de l’attaque par **Wazuh**
+- Génération automatique d’alertes de sécurité
+- Transmission des alertes vers **TheHive**
+- Analyse et prise en charge de l’incident
+
+---
+
+## 📊 Fonctionnalités principales
+
+- ✔️ Centralisation des logs de sécurité  
+- ✔️ Détection en temps réel des menaces  
+- ✔️ Corrélation des événements  
+- ✔️ Enrichissement des alertes via **MISP**  
+- ✔️ Analyse automatisée via **Cortex**  
+- ✔️ Gestion des incidents via **TheHive**  
+- ✔️ Détection réseau avec **Suricata**  
+
+---
+
+## 🎯 Objectifs du projet
+
+- Mettre en place une solution **SOAR complète**
+- Automatiser les opérations de sécurité
+- Réduire le temps de réponse aux incidents
+- Améliorer la visibilité et la supervision du système d’information
+
+  ## 📁 Structure du projet
+
+```bash
+├── SOAR_implementation.md
+├── docker-compose.yml
+├── images/
+│   ├── architecture.png
+│   ├── wazuh_dashboard.png
+│   ├── suricata_logs.png
+│   └── thehive_interface.png
