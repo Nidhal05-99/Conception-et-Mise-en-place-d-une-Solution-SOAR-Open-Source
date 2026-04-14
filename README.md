@@ -140,7 +140,7 @@ Une simulation d’attaque de type **brute force** a été réalisée à l’aid
 
 - `README.md` : documentation principale du projet, présentant l’architecture globale, les objectifs et l’organisation générale.
 
-- `SOAR_Implementation.md` : documentation détaillée de la mise en place de la solution SOAR, incluant l’intégration de Wazuh, Suricata, TheHive, Cortex et MISP - ainsi que les scénarios de test.
+- `SOAR_Implementation.md` : documentation détaillée de la mise en place de la solution SOAR, incluant l’intégration de Wazuh, Suricata, TheHive, Cortex et MISP ainsi que les scénarios de test.
 
 - `Installation_Wazuh.md` : guide d’installation et de configuration de Wazuh via une machine virtuelle OVA sous VMware.
 
