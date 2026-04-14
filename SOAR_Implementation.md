@@ -162,7 +162,7 @@ La figure suivante montre l’interface graphique de la plateforme **MISP**.
 
 Dans cette étape, nous avons intégré **Cortex avec MISP** afin de permettre l’enrichissement automatique des observables et le partage des indicateurs de compromission (IOCs).
 
-Cette intégration repose sur la configuration de l’adresse IP de l’interface MISP ainsi que sur l’utilisation de la **clé API (API Key)** associée à un utilisateur dédié, permettant l’authentification et la communication entre les deux plateformes.
+Cette intégration repose sur la configuration de l’URL du serveur MISP ainsi que sur l’utilisation de la clé API (API Key) associée à un utilisateur dédié, permettant l’authentification sécurisée et la communication entre les deux plateformes.
 
 ![Figure 17](/images/Integration_MISP-Cortex.png)  
 *Figure 17 : Intégration de Cortex avec MISP via API Key*
