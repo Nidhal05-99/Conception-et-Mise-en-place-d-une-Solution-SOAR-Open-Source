@@ -65,3 +65,9 @@ sudo apt-get install suricata
 
 sudo systemctl start suricata
 sudo systemctl enable suricata
+
+```
+
+* Surveillance du trafic réseau
+* Analyse via le fichier fast.log
+* Intégration avec Wazuh
