@@ -128,3 +128,8 @@ La configuration a été réalisée en adaptant le fichier **ossec.conf** afin d
 
 ![Figure 12](/images/Wazuh_Suricata.png)  
 *Figure 12 : Intégration de Suricata avec Wazuh via ossec.conf*
+
+Comme illustré dans la figure ci-dessus, les alertes générées par Suricata sont désormais visibles directement dans l’interface Wazuh.
+
+![Figure 13](/images/wazuh_suricata_result.png)  
+*Figure 13 : Visualisation des alertes Suricata dans l’interface Wazuh*
