@@ -17,7 +17,7 @@ L’objectif est de :
 
 L’architecture globale de la solution est illustrée ci-dessous :
 
-![Architecture proposée](./images/images/Arhitecture_SOAR.png)  
+![Architecture proposée](./images/Arhitecture_SOAR.png)  
 *Architecture proposée*
 
 ### 🔗 Composants principaux
