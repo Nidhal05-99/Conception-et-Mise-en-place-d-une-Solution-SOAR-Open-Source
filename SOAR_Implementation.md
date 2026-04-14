@@ -141,3 +141,8 @@ Comme illustré dans la figure ci-dessus, les alertes générées par Suricata s
 Pour la mise en place des plateformes **TheHive, Cortex et MISP**, un fichier **Docker Compose** a été utilisé afin de déployer une architecture multi-services.
 
 Les conteneurs ont été lancés via la commande `docker compose up`, permettant un déploiement en arrière-plan.
+
+La figure suivante illustre l’interface graphique de la plateforme **TheHive**.
+
+![Figure 14](/images/Interface_graphique_TheHive.png)  
+*Figure 14 : Interface graphique de la plateforme TheHive*
