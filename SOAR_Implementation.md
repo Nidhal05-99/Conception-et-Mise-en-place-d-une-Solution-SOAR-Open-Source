@@ -126,5 +126,5 @@ Nous avons intégré **Suricata avec Wazuh** afin de centraliser les alertes ré
 
 La configuration a été réalisée en adaptant le fichier **ossec.conf** afin de permettre à Wazuh de lire les logs **EVE JSON** produits par Suricata, comme illustré dans la figure suivante.
 
-![Figure 12](/images/Wazuh_Suricata.png  
+![Figure 12](/images/Wazuh_Suricata.png)  
 *Figure 12 : Intégration de Suricata avec Wazuh via ossec.conf*
