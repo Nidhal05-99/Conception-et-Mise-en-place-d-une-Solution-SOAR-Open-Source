@@ -133,3 +133,7 @@ Comme illustré dans la figure ci-dessus, les alertes générées par Suricata s
 
 ![Figure 13](/images/Log_suricata_Wazuh.png)  
 *Figure 13 : Visualisation des alertes Suricata dans l’interface Wazuh*
+
+---
+
+## ⚙️ 4. Installation et configuration de TheHive, Cortex et MISP
