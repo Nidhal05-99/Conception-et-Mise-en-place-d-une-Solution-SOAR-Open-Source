@@ -71,3 +71,24 @@ sudo systemctl enable suricata
 * Surveillance du trafic réseau
 * Analyse via le fichier fast.log
 * Intégration avec Wazuh
+
+## 3️⃣ Déploiement des outils SOAR (Docker)
+
+Déploiement de l’environnement SOAR via Docker Compose :
+
+```bash
+docker compose up -d
+```
+* TheHive → Port 9000
+* Cortex → Port 9001
+* MISP
+
+🔗 Intégrations
+🔄 Cortex ↔ MISP
+Enrichissement des IOC
+Configuration via API Key
+🔄 TheHive ↔ Cortex
+Lancement des analyzers depuis TheHive
+🔄 Wazuh ↔ TheHive
+Envoi automatique des alertes
+Utilisation de thehive4py
