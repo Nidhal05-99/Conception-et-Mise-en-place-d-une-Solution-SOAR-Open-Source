@@ -210,3 +210,12 @@ Une attaque de type **brute force** a été simulée à l’aide de l’outil **
 
 ![Figure 23](/images/Attaque_Brute_Force.png)  
 *Figure 23 : Simulation d’une attaque brute force*
+
+Suite à la simulation de l’attaque par brute force, une alerte de sécurité a été automatiquement générée et reçue sur la plateforme **Wazuh**.
+
+Cette alerte fournit des informations précises, notamment l’**adresse IP de la machine cible**, l’**adresse IP de la source de l’attaque**, ainsi que le**port réseau** impliqué, facilitant ainsi l’analyse et la traçabilité de l’incident.
+
+Comme illustré dans la figure suivante :
+
+![Figure 24](/images/Brute_force_detection_wazuh.png)  
+*Figure 24 : Alerte Wazuh pour attaque par force brute*
