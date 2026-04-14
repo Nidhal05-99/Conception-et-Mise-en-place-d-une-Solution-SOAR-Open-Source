@@ -180,4 +180,4 @@ Dans cette étape, nous avons procédé à l’intégration de **TheHive avec Co
 Cette intégration a été réalisée en utilisant l’**API Key Cortex** ainsi que l’**URL du serveur Cortex**, permettant une communication sécurisée et stable entre les deux plateformes, ainsi que l’exécution des analyzers directement depuis TheHive.
 
 ![Figure 19](/images/Integration_TheHive-Cortex.png)  
-*Figure 19 : Intégration de TheHive avec Cortex 
+*Figure 19 : Intégration de TheHive avec Cortex*
