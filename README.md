@@ -136,13 +136,14 @@ Une simulation d’attaque de type **brute force** a été réalisée à l’aid
 - Réduire le temps de réponse aux incidents
 - Améliorer la visibilité et la supervision du système d’information
 
-  ## 📁 Structure du projet
+## 📁 Structure du projet
 
-```bash
-├── SOAR_implementation.md
-├── docker-compose.yml
-├── images/
-│   ├── architecture.png
-│   ├── wazuh_dashboard.png
-│   ├── suricata_logs.png
-│   └── thehive_interface.png
+- `README.md` : documentation principale du projet, présentant l’architecture globale, les objectifs et l’organisation générale.
+
+- `SOAR_Implementation.md` : documentation détaillée de la mise en place de la solution SOAR, incluant l’intégration de Wazuh, Suricata, TheHive, Cortex et MISP - ainsi que les scénarios de test.
+
+- `Installation_Wazuh.md` : guide d’installation et de configuration de Wazuh via une machine virtuelle OVA sous VMware.
+
+- `docker-compose.yml` : fichier d’orchestration Docker permettant le déploiement des services TheHive, Cortex et MISP.
+
+- `images/` : dossier contenant les captures d’écran, schémas d’architecture et illustrations utilisées dans la documentation.
