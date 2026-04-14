@@ -17,8 +17,8 @@ L’objectif est de :
 
 L’architecture globale de la solution est illustrée ci-dessous :
 
-![Architecture réseau cible](./images/network_configuration/Architecture_Reseau.png)  
-*Architecture réseau cible*
+![Architecture proposée](./images/images/Arhitecture_SOAR.png)  
+*Architecture proposée*
 
 ### 🔗 Composants principaux
 
