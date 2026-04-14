@@ -181,3 +181,20 @@ Cette intégration a été réalisée en utilisant l’**API Key Cortex** ainsi 
 
 ![Figure 19](/images/Integration_TheHive-Cortex.png)  
 *Figure 19 : Intégration de TheHive avec Cortex*
+
+## 🔗 Intégration de Wazuh et TheHive
+
+Dans cette phase, nous avons procédé à l’intégration de **Wazuh avec TheHive** afin d’automatiser le traitement et la gestion des alertes de sécurité.
+
+Cette intégration a été réalisée via l’installation du module **thehive4py** sur le serveur Wazuh, permettant ainsi la communication et l’envoi automatique des alertes vers la plateforme TheHive.
+
+La figure suivante illustre l’installation de ce module et la mise en place de cette intégration.
+
+![Figure 20](/images/Installation_TheHive4py.png)  
+*Figure 20 : Installation de TheHive4py sur Wazuh*
+
+La configuration a été réalisée en ajoutant l’URL, le port et la clé API de TheHive dans le fichier /var/ossec/etc/ossec.conf.
+La figure suivante illustre cette configuration. 
+
+![Figure 21](/images/Integration_Wazuh_Thehive.png)  
+*Figure 21 :  Intégration de Wazuh et TheHive*
