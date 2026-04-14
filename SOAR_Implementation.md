@@ -94,3 +94,12 @@ La figure suivante montre cette analyse
 
 ## ⚙️ 3. Installation et configuration de Suricata (IDS/IPS)
 
+Dans cette étape, nous avons procédé à l’installation et à la configuration de **Suricata**, un système de détection et de prévention d’intrusion (IDS/IPS). Cet outil permet d’analyser le trafic réseau en temps réel afin d’identifier les activités suspectes et les menaces potentielles.
+
+Pour installer Suricata, nous avons commencé par mettre à jour les paquets du système, puis procéder à son installation via le gestionnaire de paquets APT.
+
+```bash
+sudo apt-get update
+sudo apt-get install suricata
+
+
