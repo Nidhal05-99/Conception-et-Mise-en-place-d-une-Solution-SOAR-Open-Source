@@ -171,3 +171,9 @@ Après l’intégration, nous avons ajouté un analyseur **MISP** dans la platef
 
 ![Figure 18](/images/Ajout_MISP_Cortex.png)  
 *Figure 18 : Ajout de l’analyseur MISP dans Cortex*
+
+## 🔗 Intégration de TheHive et Cortex
+
+Dans cette étape, nous avons procédé à l’intégration de **TheHive avec Cortex** afin de permettre l’enrichissement automatique des observables et l’analyse des artefacts dans le cadre de la gestion des incidents de sécurité.
+
+Cette intégration a été réalisée en utilisant l’**API Key Cortex** ainsi que l’**URL du serveur Cortex**, permettant une communication sécurisée et stable entre les deux plateformes, ainsi que l’exécution des analyzers directement depuis TheHive.
