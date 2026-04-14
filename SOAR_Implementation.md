@@ -113,3 +113,11 @@ Après une installation réussie, nous avons vérifié l’état du service Suri
 
 ![Figure 10](/images/Etat_suricata.png)  
 *Figure 10 : État du service Suricata sur la machine Ubuntu*
+
+Une fois la configuration de Suricata effectuée, nous avons testé la surveillance de la machine Ubuntu en exploitant les journaux de détection, notamment le fichier **fast.log**, afin de vérifier la génération et la remontée des alertes réseau.
+
+```bash
+sudo cat /var/log/suricata/fast.log
+```
+![Figure 11](/images/Logs_suricata.png)  
+*Figure 11 : Surveillance des événements réseau via le fichier fast.log de Suricata*
