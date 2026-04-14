@@ -1,4 +1,4 @@
-# 🔐 Conception-et-Mise-en-place-d-une-Solution-SOAR-Open-Source
+# 🔐 Conception et Mise en place d'une Solution SOAR Open Source
 
 ## 📌 Description
 
