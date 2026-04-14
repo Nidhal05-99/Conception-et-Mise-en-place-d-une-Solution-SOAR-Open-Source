@@ -146,3 +146,13 @@ La figure suivante illustre l’interface graphique de la plateforme **TheHive**
 
 ![Figure 14](/images/Interface_graphique_TheHive.png)  
 *Figure 14 : Interface graphique de la plateforme TheHive*
+
+Cette figure montre l’interface graphique de la plateforme **Cortex**.
+
+![Figure 15](/images/Interface_graphique_cortex.png)  
+*Figure 15 : Interface graphique de la plateforme Cortex*
+
+La figure suivante montre l’interface graphique de la plateforme **MISP**.
+
+![Figure 16](/images/Interface_graphique_MISP.png)  
+*Figure 16 : Interface graphique de la plateforme MISP*
