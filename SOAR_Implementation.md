@@ -232,3 +232,9 @@ Dès la détection de l’alerte par Wazuh, une alerte correspondante a été au
 
 ![Figure 26](/images/Alerte_envoyées_à_TheHive.png)  
 *Figure 26 : Alerte de sécurité envoyée à TheHive*
+
+---
+
+Ce document présente les différentes étapes de mise en place d’une solution **SOAR** basée sur des outils open source, couvrant la détection, l’analyse et le traitement des incidents de sécurité.
+
+Il illustre également l’intégration des composants ainsi que les tests réalisés pour valider le bon fonctionnement global de l’architecture.
