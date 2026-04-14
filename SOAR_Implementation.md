@@ -221,7 +221,7 @@ Une attaque de type **brute force** a été simulée à l’aide de l’outil **
 
 Suite à la simulation de l’attaque par brute force, une alerte de sécurité a été automatiquement générée et reçue sur la plateforme **Wazuh**.
 
-Cette alerte fournit des informations précises, notamment l’**adresse IP de la machine cible**, l’**adresse IP de la source de l’attaque**, ainsi que le**port réseau** impliqué, facilitant ainsi l’analyse et la traçabilité de l’incident.
+Cette alerte fournit des informations précises, notamment l’**adresse IP de la machine cible**, l’**adresse IP de la source de l’attaque**, ainsi que le **port réseau** impliqué, facilitant ainsi l’analyse et la traçabilité de l’incident.
 
 Comme illustré dans la figure suivante :
 
